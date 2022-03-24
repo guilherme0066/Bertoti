@@ -24,7 +24,7 @@ Avaliação Heurística
 
 <h2> G1 </h2>
 <hr>
-<h3> O site não proporciona nenhum tipo de descrição transcrita dos vídeos presentes no site, apenas os vídeos com áudio. </h3>
+<h3> O site não proporciona nenhum tipo de descrição transcrita dos vídeos presentes, apenas os vídeos com áudio. </h3>
 <br>
 
 <h1>
