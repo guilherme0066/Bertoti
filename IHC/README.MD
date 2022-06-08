@@ -1,157 +1,125 @@
 Avaliação Heurística
 <br>
 <h1 align="center"> Bertoti </h1>
-<p align="center">Web Content Accessibility</p>
-  
-## :books: Introduction
-When websites and web tools are properly designed and coded, their use becomes easy and intuitive. There are some rules that must be followed, as we will discuss later and can be found in WCAG/W3C. However, as we will see, not all sites follow this rule, causing discomfort to the user and rendering the system unusable.
-> [Website Link](https://www.w3.org/WAI/WCAG21/quickref/#adaptable)<br>
-<br>
-<hr>
-
-<p align="center">
-  <a href ="#1-principle-perceivable"> Perceptible </a>  • 
-  <a href ="#2-principle-operable"> Operable </a>  • 
-  <a href ="#3-principle-understandable"> Understandable </a>  • 
-  <a href ="#4-principle-robust"> Robust </a> 
-<hr><br>
-
-
+ 
 ## 1 Principle Perceivable
-Information and user interface components must be presentable to users in ways they can perceive.
+As informações e os componentes da interface do usuário devem ser apresentáveis aos usuários de maneira que eles possam perceber.
  ### 1.1 – Text Alternatives
- Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.
+ Forneça alternativas de texto para qualquer conteúdo não textual para que possa ser alterado para outras formas que as pessoas precisem, como letras grandes, braille, fala, símbolos ou linguagem mais simples.
  ### 1.1.1 Non-text Content, Level A
-  Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/954185385603375124/unknown.png" width="280" height="380">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.discordapp.com/attachments/826526043917647912/954870448334712882/unknown.png" width="480" height="300"><br>
-  >The Anime Online is an example of this heuristic and google is a counter example
+  O conteúdo não restringe sua visualização e operação a uma única orientação de exibição, como retrato ou paisagem, a menos que uma orientação de exibição específica seja essencial.
+  
   
 <br>
 
  ### 1.2 – Time-based Media
- Provide alternatives for time-based media.
+ Forneça alternativas para mídia baseada em tempo.
  ### 1.2.4 Captions (Live), Level AA
-Captions are provided for all live audio content in synchronized media.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/951249982277705748/0ea8acc5-92fd-422a-ae11-6a5560cf988d.png" width="380" height="200"><br>
-  >Teams is an example of this heuristic and some social media platforms are a counter example, because they don't have this function
-
+As legendas são fornecidas para todo o conteúdo de áudio ao vivo em mídia sincronizada.
+  
 <br>
 
 ### 1.3 – Adaptable
- Create content that can be presented in different ways (for example simpler layout) without losing information or structure.
+ Crie conteúdo que possa ser apresentado de diferentes formas (por exemplo, layout mais simples) sem perder informações ou estrutura.
  ### 1.3.4 Orientation, Level AA
-Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.
-   <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983321072420130836/unknown.png" width="890" height="490"><br>
- >Youtube is an example of this heuristic and Drops is a counter example, because they don't have this function
+O conteúdo não restringe sua visualização e operação a uma única orientação de exibição, como retrato ou paisagem, a menos que uma orientação de exibição específica seja essencial.
+  
 
 <br>
 
 ### 1.4 – Distinguishable
- Make it easier for users to see and hear content including separating foreground from background.
+ Torne mais fácil para os usuários ver e ouvir o conteúdo, incluindo a separação do primeiro plano do plano de fundo.
  ### 1.4.1 Use of Color, Level A
-Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/951259137935826954/unknown.png" width="820"> <br>
-  >Duolingo is an example of this heuristic and siga is a counter example, because they don't have this function
+A cor não é usada como o único meio visual de transmitir informações, indicar uma ação, solicitar uma resposta ou distinguir um elemento visual.
+  
 
 <br>
 <br>
 
 ## 2 Principle Operable
-User interface components and navigation must be operable.
+Os componentes da interface do usuário e a navegação devem ser operáveis.
  ### 2.1 – Keyboard Accessible
- Make all functionality available from a keyboard.
+ Disponibilize todas as funcionalidades a partir de um teclado.
  ### 2.1.3 Keyboard (No Exception), Level AAA
- All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983322025982582814/unknown.png" width="500" height="400"><br>
-  >Discord is an example of this heuristic and Duolingo is a counter example, because they don't have this function
+ Toda a funcionalidade do conteúdo é operada por meio de uma interface de teclado sem exigir tempos específicos para pressionamentos de tecla individuais.
+  
   
 <br>
 
  ### 2.2 – Enough Time
- Provide users enough time to read and use content.
+ Forneça aos usuários tempo suficiente para ler e usar o conteúdo.
  ### 2.2.4 Interruptions, Level AAA
-Interruptions can be postponed or suppressed by the user, except interruptions involving an emergency.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983322885429006376/unknown.png" width="670" height="350"><br>
-  >Netflix is an example of this heuristic, because after a time it asks if you want to continue watching
+As interrupções podem ser adiadas ou suprimidas pelo usuário, exceto interrupções que envolvam uma emergência.
+  
 
 <br>
 
  ### 2.3 – Seizures and Physical Reactions
- Do not design content in a way that is known to cause seizures or physical reactions.
+ Não crie conteúdo de uma forma conhecida por causar convulsões ou reações físicas.
  ### 2.3.3 Animation from Interactions, Level AAA
-Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.
-   <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983323679805030441/unknown.png" width="370" height="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.discordapp.com/attachments/826526043917647912/983324252008755220/unknown.png" width="480" height="300"><br>
-  >An example of this heuristic is the salesforce that uses UX concepts, also streaming platforms, for example, Disney+ and Star+ and a counter example is the episode "Dennō Senshi Porygon" - pokemon, that caused countless cases a lot of seizures/physical reactions
+A animação de movimento acionada pela interação pode ser desabilitada, a menos que a animação seja essencial para a funcionalidade ou a informação que está sendo transmitida.
+  
 
 <br>
 
  ### 2.4 – Navigable
-Provide ways to help users navigate, find content, and determine where they are.
+Forneça maneiras de ajudar os usuários a navegar, encontrar conteúdo e determinar onde eles estão.
  ### 2.4.2 Page Titled, Level A
-Web pages have titles that describe topic or purpose.
-   <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983324846631059506/unknown.png" width="640"  height="500"><br>
-  >An example of this heuristic is the trailhead 
-
+As páginas da Web têm títulos que descrevem o tópico ou propósito.
+   
 <br>
 
  ### 2.5 – Input Modalities
-Make it easier for users to operate functionality through various inputs beyond keyboard.
+Torne mais fácil para os usuários operar a funcionalidade por meio de várias entradas além do teclado.
  ### 2.5.4 Motion Actuation, Level A
-Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation <br><br>
-  <img src="https://cdn.discordapp.com/attachments/826526043917647912/983325879230930994/unknown.png" width="480"  height="300"><br>
-  >Examples of this heuristic are the galaxy watch and the Sansung smartphone is a a counter example, because they don't have this function
+A funcionalidade que pode ser operada pelo movimento do dispositivo ou pelo movimento do usuário também pode ser operada pelos componentes da interface do usuário e a resposta ao movimento pode ser desabilitada para evitar acionamento acidental <br><br>
+  
 
 <br>
 
 ## 3 Principle Understandable
-Information and the operation of the user interface must be understandable.
+As informações e a operação da interface do usuário devem ser compreensíveis.
  ###  3.1 – Readable
-Make text content readable and understandable.
+Torne o conteúdo do texto legível e compreensível.
  ### 3.1.2 Language of Parts, Level AA
- The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983326681232183346/unknown.png" width="860" height="460"><br><br>
-  >Trailhead and Salesforce are examples of this heuristic
+ A linguagem humana de cada passagem ou frase no conteúdo pode ser determinada programaticamente, exceto para nomes próprios, termos técnicos, palavras de linguagem indeterminada e palavras ou frases que se tornaram parte do vernáculo do texto imediatamente circundante.
+  
   
 <br>
 
  ### 3.2 – Predictable
- Make Web pages appear and operate in predictable ways.
+ Faça com que as páginas da Web apareçam e operem de maneira previsível.
  ### 3.2.3 Consistent Navigation, Level AA
 Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983328677196595230/unknown.png" width="740" height="380"><br>
-  >Trailhead is an example of this heuristic
+  
 
 <br>
 
  ### 3.3 – Input Assistance
- Help users avoid and correct mistakes.
+ Ajude os usuários a evitar e corrigir erros.
  ### Error Identification Level A
- If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
+Se um erro de entrada for detectado automaticamente, o item que está com erro é identificado e o erro é descrito para o usuário em texto.
    <br><br>
-  <img src="https://cdn.discordapp.com/attachments/826526043917647912/983329251690446858/unknown.png" width="440" height="360"><br>
-  >An example of this heuristic is the Notion and VSCode and a counter example is Note that doesn't have this function
+  
 
 <br>
 
 ## 4 Principle Robust
-Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
+O conteúdo deve ser robusto o suficiente para que possa ser interpretado por uma ampla variedade de agentes de usuário, incluindo tecnologias assistivas.
  ###  4.1 – Compatible
-Maximize compatibility with current and future user agents, including assistive technologies.
+Maximize a compatibilidade com agentes de usuário atuais e futuros, incluindo tecnologias assistivas.
  ### 4.1.1 Parsing, Level A
- In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
-  <br><br><img src="https://cdn.discordapp.com/attachments/826526043917647912/983329991901200434/unknown.png" width="65%"><br>
-  >Trailhead is an example of this heuristic
+ No conteúdo implementado usando linguagens de marcação, os elementos têm tags de início e fim completas, os elementos são aninhados de acordo com suas especificações, os elementos não contêm atributos duplicados e quaisquer IDs são exclusivos, exceto onde as especificações permitirem esses recursos.
+ 
   
 <br>
 
 ## ⚙️ WCAG Levels
-WCAG uses three levels to distinguish the extent of compliance with WCAG 2.1, these levels being A, AA and finally AAA. This is what they represent:
+A WCAG utiliza três níveis para distinguir o grau de conformidade com as WCAG 2.1, sendo estes níveis A, AA e finalmente AAA. Isto é o que eles representam:
 
-A – Lowest level of compliancy.
+A – Nível mais baixo de conformidade.
 
-AA – Moderate level of compliancy and the most popular level.
+AA – Nível moderado de conformidade e o nível mais popular.
 
-AAA – Full compliancy, although not many websites achieve this level as it is sometimes simply not possible to adhere to every single rule with some content.
+AAA – Conformidade total, embora poucos sites atinjam esse nível, pois às vezes simplesmente não é possível aderir a todas as regras com algum conteúdo.
       
