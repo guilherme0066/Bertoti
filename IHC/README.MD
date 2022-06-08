@@ -2,7 +2,7 @@ Avaliação Heurística
 <br>
 <h1 align="center"> Bertoti </h1>
  
-## 1 Principle Perceivable
+## 1 - Principle Perceivable
 As informações e os componentes da interface do usuário devem ser apresentáveis aos usuários de maneira que eles possam perceber.
  ### 1.1 – Text Alternatives
  Forneça alternativas de texto para qualquer conteúdo não textual para que possa ser alterado para outras formas que as pessoas precisem, como letras grandes, braille, fala, símbolos ou linguagem mais simples.
@@ -36,7 +36,7 @@ A cor não é usada como o único meio visual de transmitir informações, indic
 <br>
 <br>
 
-## 2 Principle Operable
+## 2 - Principle Operable
 Os componentes da interface do usuário e a navegação devem ser operáveis.
  ### 2.1 – Keyboard Accessible
  Disponibilize todas as funcionalidades a partir de um teclado.
@@ -77,7 +77,7 @@ A funcionalidade que pode ser operada pelo movimento do dispositivo ou pelo movi
 
 <br>
 
-## 3 Principle Understandable
+## 3 - Principle Understandable
 As informações e a operação da interface do usuário devem ser compreensíveis.
  ###  3.1 – Readable
 Torne o conteúdo do texto legível e compreensível.
@@ -104,7 +104,7 @@ Se um erro de entrada for detectado automaticamente, o item que está com erro �
 
 <br>
 
-## 4 Principle Robust
+## 4 - Principle Robust
 O conteúdo deve ser robusto o suficiente para que possa ser interpretado por uma ampla variedade de agentes de usuário, incluindo tecnologias assistivas.
  ###  4.1 – Compatible
 Maximize a compatibilidade com agentes de usuário atuais e futuros, incluindo tecnologias assistivas.
