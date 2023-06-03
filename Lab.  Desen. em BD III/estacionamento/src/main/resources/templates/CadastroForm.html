@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet"  type="text/css" href="" th:href="@{/styles.css}">
+<title>Insert title here</title>
+</head>
+<body id="cad">
+<div class="container">
+  <nav>
+    <a  href="#">Car Create</a>
+  </nav>
+</div>
+  <div class="cadastroCarro" style="margin-left: 20px; padding: 20px;">
+    <h3 class="titulo_cadastro">Cadastre seu novo Carro</h3>
+  		<form th:action="@{/carros/save}">
+		  <div >
+		    <div>
+		      <label for="inputEmail4">Placa</label>
+		      <input type="text"  id="placa" name="placa" placeholder="Digite a placa">
+		    </div>
+		    <div>
+		      <label >Modelo</label>
+		      <input type="text"id="inputPassword4" name = "modelo" placeholder="Digite o modelo">
+		    </div>
+		  </div>
+		  <div>
+		    <label for="inputAddress">Cor</label>
+		    <input type="text"  id="inputAddress" name= "cor"placeholder="Digite a cor">
+		  </div>
+		  <div >
+		    <label for="inputAddress2">Marca</label>
+		    <input type="text" id="inputAddress2" name= "marca" placeholder="Digite a marca do seu carro">
+		  </div>
+		  <p></p>
+		  <button type="submit" >Cadastrar</button>
+		</form>
+  </div>
+</body>
+</html>
